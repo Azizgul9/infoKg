@@ -1,0 +1,89 @@
+
+.RegionItem {
+    width: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px #cccccc;
+    margin: 5px;
+    background: white;
+    color: black;
+}
+.RegionItem:hover {
+    background: linear-gradient(40deg, #43bf5c 0%, #3ab4e3 90%);
+    color: white;
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.RegionItemBody {
+    padding: 0 0 0 0;
+    position: relative;
+}
+.deleteInfo {
+    cursor: pointer;
+    position: absolute;
+    top: -1px;
+    right: 0;
+    font-size: 20px;
+    color: #606060;
+    padding: 15px;
+    background: white;
+}
+.deleteInfo:hover {
+    color: crimson;
+}
+.deleteCategory {
+    width: 30%;
+}
+.deleteCategoryItem{
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 0;
+    z-index: 100;
+}
+.deleteCategoryItem > i {
+    margin: 0 5px;
+    font-size: 20px;
+    color: #606060;
+    cursor: pointer;
+}
+.deleteCategoryItem i:hover {
+    color: crimson;
+}
+.title {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.gardenTitle {
+    margin-top: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #cccc;
+}
+.img {
+    width: 350px;
+    height: 210px;
+    border-bottom: 1px solid white;
+}
+.infoBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.infoContent {
+    font-family: 'Comfortaa', cursive;
+}
+.ListGroupItem {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ListGroupItem a {
+    width: 70%;
+}
